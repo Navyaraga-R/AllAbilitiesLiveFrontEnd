@@ -1,0 +1,53 @@
+.image {
+    width: 1264px !important;
+    height: 200px;
+}
+.movies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-container {
+    width: 200px;
+    margin: 20px;
+    background-color: #db7fba00;
+    color: rgba(7, 7, 7, 0.7);
+  }
+  .events_carousel_1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+  }
+  .card-subtitle {
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  } 
+  .card-title {
+    font-size: smaller;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  } 
+  .card-img {
+    width: 100%;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+  h4 {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+
+  .carousel-multi-item .col-md-3 {
+    float: left;
+    /* width: 50%; */
+    /* max-width: 100%; */
+  }
+  

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.court-details .name {
+  font-size: 1.25rem;
+  margin-top:0.5rem;
+  text-align: center;
+}
+
+/* Events Carousel Styling */
+
+a.btn-floating {
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 10;
+  color:red !important; 
+}
+
+a.btn-floating.prev {
+  left: 10px;
+}
+
+a.btn-floating.next {
+  right: 10px;
+}
+
+#multi-item-example {
+  padding: 1rem;
+}

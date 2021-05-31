@@ -1,0 +1,27 @@
+.News_section {
+    width: 700px;
+    height: 450px;
+    border: 0;
+    background: #eee;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.News_video {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+    /* width: 370px;
+    height: 540px; mobile */
+}
+
+.News_title {
+    position: absolute;
+    top: clamp(78%, 83%, 83%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #040404;
+    padding: 2px 2px 2px 0px;
+    font-weight: 600;
+    font-size: initial;
+}

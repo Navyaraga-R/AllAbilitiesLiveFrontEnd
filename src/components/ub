@@ -1,0 +1,157 @@
+
+<MDBCarousel activeItem={1} length={Math.ceil(this.state.movies.length / 4)} slide={true} showControls={true} showIndicators={true} multiItem>
+  <MDBCarouselInner>
+    <MDBRow>
+      <MDBCarouselItem itemId={"1"}>
+      <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" />
+            <MDBCardBody>
+              <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBCarouselItem>
+      <MDBCarouselItem itemId="2">
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(60).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(48).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBCarouselItem>
+      <MDBCarouselItem itemId="3">
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol md="3">
+          <MDBCard className="mb-2">
+            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(41).jpg" />
+            <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+              <MDBCardText>
+                BasketBall event
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBCarouselItem>
+    </MDBRow>
+  </MDBCarouselInner>
+</MDBCarousel>
+
+const cardItem = (          <MDBCard className="mb-2">
+<MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" />
+<MDBCardBody>
+  <MDBCardTitle>BasketBall</MDBCardTitle>
+  <MDBCardText>
+    BasketBall event
+  </MDBCardText>
+</MDBCardBody>
+</MDBCard>)
+
+for(let i=0; i< length; i++) {
+    <MDBCarouselItem itemId={i+1}>
+        func1()
+    </MDBCarouselItem>
+}
+
+
+const func1 = () => {
+    for(let j=0;j<itemsForCarousel; j++) {
+        return(
+        <MDBCol md="3">
+        <MDBCard className="mb-2">
+          <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" />
+          <MDBCardBody>
+            <MDBCardTitle>BasketBall</MDBCardTitle>
+            <MDBCardText>
+              BasketBall event
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>  )   
+    }
+}
